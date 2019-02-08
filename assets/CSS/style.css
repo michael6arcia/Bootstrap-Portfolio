@@ -1,3 +1,8 @@
 body {
     background-image: url(../images/gravel.png);
 }
+
+.container {
+    background: white;
+    width:960px;
+}
