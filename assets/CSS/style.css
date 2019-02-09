@@ -8,6 +8,9 @@ body {
 
 .navbar-brand {
     margin-left: 50px;
+    background: blue;
+    padding: 10px;
+    color: white;
 }
 
 .nav-item {
@@ -15,6 +18,7 @@ body {
 }
 
 #catimg {
+    float:left;
     margin-right: 20px;
     margin-bottom: 20px;
 }
