@@ -3,6 +3,9 @@ body {
 }
 
 .container {
-    background: white;
     width:960px;
+}
+
+.article {
+    background: white;
 }
