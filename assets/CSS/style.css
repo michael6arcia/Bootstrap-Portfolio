@@ -13,8 +13,25 @@ body {
     color: white;
 }
 
+#name {
+    color: white;
+}
+
+nav {
+    background: white;
+}
+
 .nav-item {
     margin-right: 50px;
+}
+
+.jumbotron {
+    margin-top:20px;
+    background: white;
+}
+
+.display-5 {
+    color: blue;
 }
 
 #catimg {

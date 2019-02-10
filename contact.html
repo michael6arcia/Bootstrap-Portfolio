@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Michael Garcia</a>
+        <a class="navbar-brand" id="name" href="index.html">Michael Garcia</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,24 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-5">About Me</h1>
+            <h1 class="display-5">Contact</h1>
             <hr>
-            <img class="rounded-circle" id="catimg" src="http://lorempixel.com/output/cats-q-c-200-200-8.jpg">
-            <p class="text">My name is Michael Garcia and I made this webpage.</p>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique purus neque, eu
-                porta dolor mattis in. Duis vitae bibendum mauris, id venenatis lorem. Duis feugiat ultrices convallis.
-                Pellentesque ut est ut erat luctus hendrerit fringilla non augue.</p>
-            <p class="text">Nullam euismod aliquet mauris a aliquam. Suspendisse nunc lorem, sodales ac ullamcorper
-                quis, tincidunt vitae dolor. Vestibulum luctus imperdiet risus, in consectetur purus vestibulum
-                efficitur. Suspendisse diam velit, mattis vel elementum in, lobortis id nisl.</p>
-            <p class="text">Vestibulum ultricies posuere porta. Mauris tristique viverra faucibus. Suspendisse dapibus
-                elit id rhoncus hendrerit. In faucibus ipsum a turpis ultricies, finibus tincidunt nisl maximus. Ut
-                iaculis tristique magna.</p>
+            <h4>Name</h4>
+            <form>
+                <input class="nameform" type="text" name="Name">
+            </form>
+            <h4>Email</h4>
+            <form>
+                <input class="emailform" type="text" name="Email">
+            </form>
+            <h4>Message</h4>
+            <form>
+                <textarea class="messageform"></textarea>
+            </form>
+            <br>
+            <form>
+                <input class="submitbtn" type="submit" name="Submit">
+            </form>
         </div>
     </div>
 </body>
