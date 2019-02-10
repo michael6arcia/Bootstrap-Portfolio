@@ -8,17 +8,18 @@ body {
 
 .navbar-brand {
     margin-left: 50px;
-    background: blue;
-    padding: 10px;
-    color: white;
+    padding: 20px;
 }
 
 #name {
-    color: white;
+    color: #4aaaa5;
 }
 
 nav {
-    background: white;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #cccccc;
 }
 
 .nav-item {
@@ -27,13 +28,17 @@ nav {
 
 .jumbotron {
     margin-top:20px;
-    background: white;
+    margin-bottom: 20px;
+    background: #ffffff;
     padding-top: 15px;
     padding-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
 }
 
 .display-5 {
-    color: blue;
+    color: #4aaaa5;
 }
 
 #catimg {
@@ -57,4 +62,20 @@ nav {
 .grid {
     display: block;
     
+}
+
+#footer {
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
 }
