@@ -28,6 +28,8 @@ nav {
 .jumbotron {
     margin-top:20px;
     background: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .display-5 {
@@ -38,4 +40,16 @@ nav {
     float:left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.nameform {
+    width: 100%;
+}
+
+.emailform {
+    width: 100%;
+}
+
+.messageform {
+    width: 100%;
 }
