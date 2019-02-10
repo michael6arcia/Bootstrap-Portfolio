@@ -6,11 +6,6 @@ body {
     width:960px;
 }
 
-.navbar-brand {
-    margin-left: 50px;
-    padding: 20px;
-}
-
 #name {
     color: #4aaaa5;
 }
@@ -20,10 +15,9 @@ nav {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     border-color: #cccccc;
-}
-
-.nav-item {
-    margin-right: 50px;
+    top: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .jumbotron {
@@ -61,10 +55,10 @@ nav {
 
 .grid {
     display: block;
-    
+    width:100%;
 }
 
-#footer {
+#footer1 {
     background: #777777;
     color: #ffffff;
     text-align: center;
@@ -73,9 +67,24 @@ nav {
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+#footer2 {
+    background: #777777;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
 }
