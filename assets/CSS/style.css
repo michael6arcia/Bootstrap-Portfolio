@@ -53,3 +53,8 @@ nav {
 .messageform {
     width: 100%;
 }
+
+.grid {
+    display: block;
+    
+}
